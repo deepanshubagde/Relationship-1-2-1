@@ -1,0 +1,7 @@
+# Cloudflare Pages Configuration
+name = "aditya-thakare-mentorship"
+compatibility_date = "2024-09-29"
+pages_build_output_dir = "dist"
+
+[vars]
+NODE_VERSION = "20"
