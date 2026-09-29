@@ -3,7 +3,7 @@
 
 export async function onRequestGet() {
   const config = {
-    mentorName: 'Aditya Thakare',
+    mentorName: 'Aditya Sakhare',
     mentorTitle: 'Relationship & Conscious Intimacy Mentor',
     communityName: 'Monkhood',
     communityJoinUrl: 'https://join.monkhoodclub.com',

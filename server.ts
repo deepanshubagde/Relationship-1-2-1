@@ -31,7 +31,7 @@ function readConfig() {
     console.error('Error reading config file:', e);
   }
   return {
-    mentorName: 'Aditya Thakare',
+    mentorName: 'Aditya Sakhare',
     mentorTitle: 'Relationship & Conscious Intimacy Mentor',
     communityName: 'Monkhood',
     communityJoinUrl: 'https://join.monkhoodclub.com',
@@ -155,7 +155,7 @@ app.post('/api/submit', async (req, res) => {
     res.json({
       success: true,
       id: newSubmission.id,
-      redirectUrl: config.checkoutUrl || 'https://rzp.io/l/aditya-thakare-session'
+      redirectUrl: config.checkoutUrl || 'https://rzp.io/l/aditya-sakhare-session'
     });
   } catch (e: any) {
     res.status(500).json({ error: e.message });
@@ -207,7 +207,7 @@ app.get('/api/export-csv', (_req, res) => {
     'Ready for Direction',
     'Committed to Roadmap',
     'Ready to Invest Energy',
-    'Why Aditya Thakare',
+    'Why Aditya Sakhare',
     'Desired Breakthrough & Vision',
     'Preferred Slot',
     'Notes'
@@ -246,7 +246,7 @@ app.get('/api/export-csv', (_req, res) => {
   }
 
   res.setHeader('Content-Type', 'text/csv; charset=utf-8');
-  res.setHeader('Content-Disposition', 'attachment; filename="aditya_thakare_1on1_submissions.csv"');
+  res.setHeader('Content-Disposition', 'attachment; filename="aditya_sakhare_1on1_submissions.csv"');
   res.send(csvRows.join('\n'));
 });
 

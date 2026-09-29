@@ -1,6 +1,6 @@
-# Aditya Thakare | 1-on-1 Relationship Mentorship Portal
+# Aditya Sakhare | 1-on-1 Relationship Mentorship Portal
 
-A production-ready, mobile-first intake and booking web application for private 1-on-1 relationship clarity mentorship sessions with **Aditya Thakare (Aditya Sir)**.
+A production-ready, mobile-first intake and booking web application for private 1-on-1 relationship clarity mentorship sessions with **Aditya Sakhare (Aditya Sir)**.
 
 ---
 
@@ -92,7 +92,7 @@ Deploying on **Cloudflare Pages** takes under 2 minutes:
 6. Under **Environment variables**, click **Add variable**:
    - `NODE_VERSION` = `20`
 7. Click **Save and Deploy**.
-8. Cloudflare will automatically build and assign your free live URL (e.g., `https://aditya-thakare-mentorship.pages.dev`). You can also attach your custom domain in 1 click under **Custom domains**.
+8. Cloudflare will automatically build and assign your free live URL (e.g., `https://aditya-sakhare-mentorship.pages.dev`). You can also attach your custom domain in 1 click under **Custom domains**.
 
 ---
 

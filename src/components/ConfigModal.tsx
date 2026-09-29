@@ -59,7 +59,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({
               value={formData.mentorName}
               onChange={e => setFormData({ ...formData, mentorName: e.target.value })}
               className="w-full bg-white border border-slate-300 focus:border-rose-600 focus:ring-2 focus:ring-rose-500/20 rounded-lg px-3.5 py-2 text-slate-900 text-sm focus:outline-none"
-              placeholder="Aditya Thakare"
+              placeholder="Aditya Sakhare"
             />
           </div>
 
@@ -98,7 +98,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({
               value={formData.checkoutUrl}
               onChange={e => setFormData({ ...formData, checkoutUrl: e.target.value })}
               className="w-full bg-white border border-slate-300 focus:border-rose-600 focus:ring-2 focus:ring-rose-500/20 rounded-lg px-3.5 py-2 text-slate-900 text-sm focus:outline-none"
-              placeholder="https://rzp.io/l/aditya-thakare-session"
+              placeholder="https://rzp.io/l/aditya-sakhare-session"
             />
             <p className="text-xs text-slate-500 mt-1">
               Participants will be directed to this link to lock in their slot after qualifying.

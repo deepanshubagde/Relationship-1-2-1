@@ -8,7 +8,7 @@ import { AdminPortal } from './components/AdminPortal';
 import { ConfigModal } from './components/ConfigModal';
 
 const DEFAULT_CONFIG: FunnelConfig = {
-  mentorName: 'Aditya Thakare',
+  mentorName: 'Aditya Sakhare',
   mentorTitle: 'Relationship & Conscious Intimacy Mentor',
   communityName: 'Monkhood',
   communityJoinUrl: 'https://join.monkhoodclub.com',
